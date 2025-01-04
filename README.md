@@ -12,6 +12,8 @@ altering the original gameplay.
   - https://www.reddit.com/r/Roms/comments/mrsb9j/doom_3_pk4_files/
     - https://archive.org/download/RetroarchSystemFiles/Retroarch-System/
 
+- 리눅스(Ubuntu24.04에서 성공함)
+
 ```bash
 git clone https://github.com/dhewm/dhewm3.git
 cd dhewm3 && mkdir build && cd build
