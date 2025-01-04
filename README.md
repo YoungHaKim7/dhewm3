@@ -8,6 +8,18 @@ platforms.
 Bugs present in the original _DOOM 3_ will be fixed (when identified) without
 altering the original gameplay.
 
+- doom 3 pk4 files
+  - https://www.reddit.com/r/Roms/comments/mrsb9j/doom_3_pk4_files/
+    - https://archive.org/download/RetroarchSystemFiles/Retroarch-System/
+
+```bash
+git clone https://github.com/dhewm/dhewm3.git
+cd dhewm3 && mkdir build && cd build
+cmake ../neo/
+make -j8
+./dhewm3 +set fs_basepath $HOME/my_project/Rust_Lang/99999999/1111/2222/dhewm3/
+```
+
 **The official homepage is:** https://dhewm3.org
 
 **Mods supported by dhewm3:** https://dhewm3.org/mods.html
