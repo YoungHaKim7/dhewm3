@@ -21,6 +21,26 @@ cmake ../neo/
 make -j8
 ./dhewm3 +set fs_basepath $HOME/my_project/Rust_Lang/99999999/1111/2222/dhewm3/
 ```
+
+pk4 다운 받은 base폴더 구조
+
+```bash
+$ eza -la -TL2 base
+drwxrwxr-x    - gygy  4 Jan 22:32 base
+.rw-rw-r--   13 gygy  4 Jan 22:21 ├── default.cfg
+.rwxrwxr-x  697 gygy  4 Jan 22:21 ├── gamepad-d3xp.cfg
+.rwxrwxr-x  696 gygy  4 Jan 22:21 ├── gamepad.cfg
+.rw-rw-r-- 353M gygy 24 Dec  1996 ├── pak000.pk4
+.rw-rw-r-- 230M gygy 24 Dec  1996 ├── pak001.pk4
+.rw-rw-r-- 417M gygy 24 Dec  1996 ├── pak002.pk4
+.rw-rw-r-- 318M gygy 24 Dec  1996 ├── pak003.pk4
+.rw-rw-r-- 238M gygy 24 Dec  1996 ├── pak004.pk4
+.rw-rw-r-- 552k gygy 24 Dec  1996 ├── pak005.pk4
+.rw-rw-r-- 219k gygy 24 Dec  1996 ├── pak006.pk4
+.rw-rw-r-- 192k gygy 24 Dec  1996 ├── pak007.pk4
+.rw-rw-r--  12k gygy 24 Dec  1996 └── pak008.pk4
+```
+
 **C++컴파일되는과정 Neo폴더 CmakeLists.txt로 공부하자:** https://github.com/YoungHaKim7/dhewm3/blob/master/neo/CMakeLists.txt
 
 **The official homepage is:** https://dhewm3.org
