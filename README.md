@@ -22,7 +22,8 @@ make -j8
 ./dhewm3 +set fs_basepath $HOME/my_project/Rust_Lang/99999999/1111/2222/dhewm3/
 ```
 
-pk4 다운 받은 base폴더 구조
+- pk4 다운 받은 base폴더 구조(이게 게임 실행 핵심 파일이라 제일 중요)
+  - C++코드는 pk4file을 실행하기 위한 장치에 불과함
 
 ```bash
 $ eza -la -TL2 base
