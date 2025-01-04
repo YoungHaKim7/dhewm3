@@ -21,6 +21,7 @@ cmake ../neo/
 make -j8
 ./dhewm3 +set fs_basepath $HOME/my_project/Rust_Lang/99999999/1111/2222/dhewm3/
 ```
+**C++컴파일되는과정 Neo폴더 CmakeLists.txt로 공부하자:** https://github.com/YoungHaKim7/dhewm3/blob/master/neo/CMakeLists.txt
 
 **The official homepage is:** https://dhewm3.org
 
